@@ -3,7 +3,6 @@ import pandas as pd
 import csv
 
 class DataImporter:
-
     def __init__(self, dir='.'):
 
         self.initFilePaths(dir)
